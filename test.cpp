@@ -17,7 +17,9 @@ class myClass{
 
 int main(){
     myClass<string> myObj;
-    myObj.word_set("Hello, World");
+    string str;
+    cin >> str;
+    myObj.word_set(str);
     myObj.word_print();
 
     return 0;
